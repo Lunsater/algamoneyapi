@@ -20,6 +20,6 @@
                                                       \::/    /                \::/    /        
                                                        \/____/                  \/____/         
 
-                                                          Spring Boot version: ${spring-boot.version}
+:: Spring Boot :: ${spring-boot.formatted-version}
                                                 
                                                                                                                                                 
