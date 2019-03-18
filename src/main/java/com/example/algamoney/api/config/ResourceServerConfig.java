@@ -40,7 +40,8 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 				.anyRequest().authenticated()
 				.and()
 			.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
-			.csrf().disable();
+			.csrf().disable()
+			.cors();
 	}
 	
 	@Override
